@@ -97,6 +97,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>A propos de moi</h2>
+                <br></br>
                 <p> Je suis interréssée par l'informatique, la photographie, l'aéronautique et pleins d'autres choses.  A mes heures perdues, je fais de la veille numérique, je bricole, je prend des photos, etc.. <br />Par contre, je suis tête en l'air et souvent en retard --'</p>
                 
                 <p> Vous avez une question, n'hésitez pas, <a href="#contact" class=" page-scroll"> contacter moi </a> ! </p>
@@ -240,7 +241,7 @@
 
                             <ul id="pgthumbs" class="clearfix list-inline"> 
     
-                    <?          
+                    <?php          
                                 $nbre_photo = 0;    
                                 if($rsp_obj['stat'] == 'ok') {
                                     foreach ($rsp_obj['photoset']['photo'] as $photo) {
@@ -267,7 +268,7 @@
                                             </a>
                                         </li>
 
-                    <?
+                    <?php
                 
                                     }
                                 }
