@@ -97,7 +97,6 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>A propos de moi</h2>
-                <br></br>
                 <p> Je suis interréssée par l'informatique, la photographie, l'aéronautique et pleins d'autres choses.  A mes heures perdues, je fais de la veille numérique, je bricole, je prend des photos, etc.. <br />Par contre, je suis tête en l'air et souvent en retard --'</p>
                 
                 <p> Vous avez une question, n'hésitez pas, <a href="#contact" class=" page-scroll"> contacter moi </a> ! </p>
@@ -120,6 +119,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <h2>Quelques Tweets de Twitter</h2>
+                        <br></br>
                         <?php
 
                             date_default_timezone_set('Europe/Paris');
@@ -168,8 +168,8 @@
 
                         else {
                             echo'<div><p>Please update your settings to provide valid credentials</p>';
+                            echo '</div>';
                         }
-                        echo '</div>';
 
                         /*
                          * Transform Tweet plain text into clickable text
@@ -183,7 +183,7 @@
                         }
 
                     ?>
-                        
+                        <br></br>
                     </div>
                 </div>
             <div>
@@ -287,7 +287,6 @@
                     <div id="pgcredit">
                         <a href="https://www.flickr.com/photos/110135843@N07/sets/72157650415680122/" target="_blank" title="suite album">La suite de l'album </a>
                     </div>
-
                 </div>
             </div>
         </div>
@@ -307,8 +306,7 @@
                 <h2>Contacter moi</h2>
                 <p>Vous souhaitez me contacter pour me poser une question sur un article, sur ce que je fais dans la vie, ou tout simplement pour me dire bonjour ! </p>
                 <p> Rien de plus simple !! Vous avez le choix : </p>
-                <p><a href="mailto:contact@paulinevial.com">contact@paulinevial.com</a>
-                </p>
+                <p><a href="mailto:contact@paulinevial.com">contact@paulinevial.com</a></p>
                 <ul class="list-inline banner-social-buttons">
                     <li>
                         <a href="https://twitter.com/paulinevial" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
@@ -323,28 +321,23 @@
                         <a href="https://fr.linkedin.com/in/paulinevial" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                     </li>
                 </ul>
+                <br></br>
+                <p class="separationsection"></p>
+                <br></br>
             </div>
 
-            <div class="col-lg-8 col-lg-offset-2">
-            
+            <!-- Map Section -->
+            <div id="map">
+                <p class="text-center"> Veuillez patienter pendant le chargement de la carte...</p>
             </div>
         </div>
     </section>
 
-    <!-- Separation Section -->
-    <section id="separation" class="container content-section text-center">
-        <div class="row">
-            <div class="separationsection"></div>
-        </div>
-    </section>
-
-    <!-- Map Section -->
-    <div id="map"></div>
-
+    
     <!-- Footer -->
     <footer>
         <div class="container text-center">
-            <p>Copyright &copy; paulinevial.com - 2015</p>
+            <h5>copyright &copy; paulinevial.com - 2015</h5>
         </div>
     </footer>
 
